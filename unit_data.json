@@ -2,6 +2,8 @@
     "units": [
         {
             "id": "lesserdemon",
+            "set": "dynamites",
+            "ranking": "1",
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Lesser Demon Cat",
@@ -12,10 +14,26 @@
             "target_abilities": [],
             "general_abilities": [
                 "Weaken-Immune"
-            ]
+            ],
+            "target_abilities_desc": [],
+            "general_abilities_desc": [
+                ""
+            ],
+            "dmg": 4125,
+            "hp": 5500,
+            "dps": 1820,
+            "cost": 3000,
+            "range": 180,
+            "speed": 12,
+            "kb": 3,
+            "atkrate": 2.27,
+            "atkanim": 0.93,
+            "recharge": 28.20
         },
         {
             "id": "lesserdemon",
+            "set": "dynamites",
+            "ranking": "1",
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Greater Demon Cat",
@@ -26,10 +44,26 @@
             "target_abilities": [],
             "general_abilities": [
                 "Weaken-Immune"
-            ]
+            ],
+            "target_abilities_desc": [],
+            "general_abilities_desc": [
+                ""
+            ],
+            "dmg": 5625,
+            "hp": 7250,
+            "dps": 2482,
+            "cost": 3000,
+            "range": 180,
+            "speed": 12,
+            "kb": 3,
+            "atkrate": 2.27,
+            "atkanim": 0.93,
+            "recharge": 28.20
         },
         {
             "id": "lesserdemon",
+            "set": "dynamites",
+            "ranking": "1",
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Greater Balrog Cat",
@@ -40,10 +74,26 @@
             "target_abilities": [],
             "general_abilities": [
                 "Weaken-Immune"
-            ]
+            ],
+            "target_abilities_desc": [],
+            "general_abilities_desc": [
+                ""
+            ],
+            "dmg": 9375,
+            "hp": 9750,
+            "dps": 4135,
+            "cost": 3000,
+            "range": 180,
+            "speed": 12,
+            "kb": 3,
+            "atkrate": 2.27,
+            "atkanim": 0.93,
+            "recharge": 28.20
         },
         {
             "id": "momoco",
+            "set": "dynamites",
+            "ranking": "4",
             "form": "basic",
             "rarity": "Legend Rare",
             "name": "Wonder MOMOCO",
@@ -58,14 +108,35 @@
                 "Multi",
                 "Wave",
                 "Wave-Immune"
-            ]
+            ],
+            "target_abilities_desc": [
+                "Chance: 100%, Duration: 2s"
+            ],
+            "general_abilities_desc": [
+                "",
+                "Chance: 100%, Level: 8",
+                ""
+            ],
+            "multi": "x3: (1/12 - 0.93s; 1/6 - 1.83s; 3/4 - 3.33s)",
+            "dmg": 9000,
+            "hp": 10000,
+            "dps": 1343,
+            "cost": 4500,
+            "range": 375,
+            "speed": 13,
+            "kb": 2,
+            "atkrate": 6.70,
+            "atkanim": 0.93,
+            "recharge": 124.53
         },
         {
             "id": "momoco",
+            "set": "dynamites",
+            "ranking": "4",
             "form": "evolved",
             "rarity": "Legend Rare",
             "name": "Cutie MOMOCO",
-            "description": "The galaxy\\'s most stylish detective, cleaning up cosmic crime with her cutting edge Cutie Beam. Area attacks freeze Red/Black/Angels.",
+            "description": "The galaxy\'s most stylish detective, cleaning up cosmic crime with her cutting edge Cutie Beam. Area attacks freeze Red/Black/Angels.",
             "role": "Crowd-Controller & Waver",
             "attack": "area",
             "target": "Red, Black, Angel",
@@ -76,7 +147,26 @@
                 "Multi",
                 "Wave",
                 "Wave-Immune"
-            ]
+            ],
+            "target_abilities_desc": [
+                "Chance: 100%, Duration: 2s"
+            ],
+            "general_abilities_desc": [
+                "",
+                "Chance: 100%, Level: 8",
+                ""
+            ],
+            "multi": "x3: (1/12 - 0.93s; 1/6 - 1.83s; 3/4 - 3.33s)",
+            "dmg": 9000,
+            "hp": 10000,
+            "dps": 1343,
+            "cost": 4500,
+            "range": 375,
+            "speed": 13,
+            "kb": 2,
+            "atkrate": 6.70,
+            "atkanim": 0.93,
+            "recharge": 124.53
         },
         {
             "id": "ice",
@@ -90,35 +180,77 @@
             "target_abilities": [
                 "Freeze"
             ],
-            "general_abilities": []
+            "general_abilities": [],
+            "target_abilities_desc": [
+                "Chance: 50%, Duration: 4s"
+            ],
+            "general_abilities_desc": [],
+            "dmg": 2250,
+            "hp": 3500,
+            "dps": 370,
+            "cost": 3300,
+            "range": 325,
+            "speed": 8,
+            "kb": 3,
+            "atkrate": 6.10,
+            "atkanim": 1.80,
+            "recharge": 57.87
         },
         {
             "id": "ice",
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Ice Queen Cat",
-            "description": "Forgot to mention that the Cat is an eternal icicle. Don\\'t think it complains much. Might stop Red enemies. (Area Attack)",
+            "description": "Forgot to mention that the Cat is an eternal icicle. Don\'t think it complains much. Might stop Red enemies. (Area Attack)",
             "role": "Crowd-Controller & Midranger",
             "attack": "area",
             "target": "Red",
             "target_abilities": [
                 "Freeze"
             ],
-            "general_abilities": []
+            "general_abilities": [],
+            "target_abilities_desc": [
+                "Chance: 50%, Duration: 4s"
+            ],
+            "general_abilities_desc": [],
+            "dmg": 3250,
+            "hp": 5000,
+            "dps": 532,
+            "cost": 3300,
+            "range": 325,
+            "speed": 8,
+            "kb": 3,
+            "atkrate": 6.10,
+            "atkanim": 1.80,
+            "recharge": 57.87
         },
         {
             "id": "ice",
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Ice Crystal Cat",
-            "description": "The Ice Queen\\'s reign grows more secure and so does her Cat companion\\'s crystal shell. Freezes Red enemies in place (Area Attack).",
+            "description": "The Ice Queen\'s reign grows more secure and so does her Cat companion\'s crystal shell. Freezes Red enemies in place (Area Attack).",
             "role": "Crowd-Controller & Backliner",
             "attack": "area",
             "target": "Red",
             "target_abilities": [
                 "Freeze"
             ],
-            "general_abilities": []
+            "general_abilities": [],
+            "target_abilities_desc": [
+                "Chance: 100%, Duration: 4s"
+            ],
+            "general_abilities_desc": [],
+            "dmg": 4500,
+            "hp": 5000,
+            "dps": 738,
+            "cost": 3300,
+            "range": 425,
+            "speed": 8,
+            "kb": 3,
+            "atkrate": 6.10,
+            "atkanim": 1.80,
+            "recharge": 57.87
         },
         {
             "id": "machine",
@@ -132,7 +264,21 @@
             "target_abilities": [
                 "Resistant"
             ],
-            "general_abilities": []
+            "general_abilities": [],
+            "target_abilities_desc": [
+                "x4 HP"
+            ],
+            "general_abilities_desc": [],
+            "dmg": 8750,
+            "hp": 12000,
+            "dps": 715,
+            "cost": 3600,
+            "range": 140,
+            "speed": 9,
+            "kb": 1,
+            "atkrate": 12.23,
+            "atkanim": 5.60,
+            "recharge": 64.53
         },
         {
             "id": "machine",
@@ -146,7 +292,25 @@
             "target_abilities": [
                 "Resistant"
             ],
-            "general_abilities": []
+            "general_abilities": [
+                "Wave-Immune"
+            ],
+            "target_abilities_desc": [
+                "x4 HP"
+            ],
+            "general_abilities_desc": [
+                ""
+            ],
+            "dmg": 13888,
+            "hp": 15000,
+            "dps": 1135,
+            "cost": 3600,
+            "range": 140,
+            "speed": 9,
+            "kb": 1,
+            "atkrate": 12.23,
+            "atkanim": 5.60,
+            "recharge": 64.53
         },
         {
             "id": "machine",
@@ -162,7 +326,23 @@
             ],
             "general_abilities": [
                 "Wave-Shield"
-            ]
+            ],
+            "target_abilities_desc": [
+                "x4 HP"
+            ],
+            "general_abilities_desc": [
+                ""
+            ],
+            "dmg": 13888,
+            "hp": 22500,
+            "dps": 1560,
+            "cost": 3600,
+            "range": 190,
+            "speed": 15,
+            "kb": 1,
+            "atkrate": 8.90,
+            "atkanim": 5.60,
+            "recharge": 64.53
         },
         {
             "id": "marauder",
@@ -176,7 +356,21 @@
             "target_abilities": [],
             "general_abilities": [
                 "Critical"
-            ]
+            ],
+            "target_abilities_desc": [],
+            "general_abilities_desc": [
+                "Chance: 20%, x2 DMG (ignore Metal)"
+            ],
+            "dmg": 500,
+            "hp": 3250,
+            "dps": 100,
+            "cost": 2250,
+            "range": 195,
+            "speed": 7,
+            "kb": 3,
+            "atkrate": 5.00,
+            "atkanim": 1.03,
+            "recharge": 47.87
         },
         {
             "id": "marauder",
@@ -190,28 +384,58 @@
             "target_abilities": [],
             "general_abilities": [
                 "Critical"
-            ]
+            ],
+            "target_abilities_desc": [],
+            "general_abilities_desc": [
+                "Chance: 40%, x2 DMG (ignore Metal)"
+            ],
+            "dmg": 750,
+            "hp": 4500,
+            "dps": 150,
+            "cost": 2250,
+            "range": 195,
+            "speed": 7,
+            "kb": 3,
+            "atkrate": 5.00,
+            "atkanim": 1.03,
+            "recharge": 47.87
         },
         {
             "id": "marauder",
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Paladin Cat",
-            "description": "This Cat\\'s righteous heart finally conquered the cursed sword, turning it into a holy axe. Might critical attack. (Area Attack)",
+            "description": "This Cat\'s righteous heart finally conquered the cursed sword, turning it into a holy axe. Might critical attack. (Area Attack)",
             "role": "Critter",
             "attack": "area",
             "target": "None",
             "target_abilities": [],
             "general_abilities": [
-                "Critical"
-            ]
+                "Critical",
+                "Knockback-Immune"
+            ],
+            "target_abilities_desc": [],
+            "general_abilities_desc": [
+                "Chance: 50%, x2 DMG (ignore Metal)",
+                ""
+            ],
+            "dmg": 1000,
+            "hp": 5750,
+            "dps": 200,
+            "cost": 2250,
+            "range": 245,
+            "speed": 7,
+            "kb": 3,
+            "atkrate": 5.00,
+            "atkanim": 1.03,
+            "recharge": 47.87
         },
         {
             "id": "baby",
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Baby Cat",
-            "description": "A baby Cat that still can\\'t do anything by itself. Luckily, daddy is there to help. Might knockback Floating & Aliens (Area Atk)",
+            "description": "A baby Cat that still can\'t do anything by itself. Luckily, daddy is there to help. Might knockback Floating & Aliens (Area Atk)",
             "role": "Nuker & Melee",
             "attack": "area",
             "target": "Floating, Alien",
@@ -220,6 +444,12 @@
             ],
             "general_abilities": [
                 "Freeze-Immune"
+            ],
+            "target_abilities_desc": [
+
+            ],
+            "general_abilities_desc": [
+                ""
             ]
         },
         {
@@ -243,7 +473,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Cats in the Cradle",
-            "description": "Even 7 kittens together can\\'t do much... Luckily Dad\\'s still keeping an eye out for bullies. Area wave attacks knockback Floating/Alien.",
+            "description": "Even 7 kittens together can\'t do much... Luckily Dad\'s still keeping an eye out for bullies. Area wave attacks knockback Floating/Alien.",
             "role": "Nuker & Melee",
             "attack": "area",
             "target": "Floating, Alien",
@@ -403,7 +633,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Lasvoss Reborn",
-            "description": "Will arise only on the eve of the world\\'s destruction. Cloaked in darkness, his claws obliterate naive heroes, leaving no trace of their pitiful existence.",
+            "description": "Will arise only on the eve of the world\'s destruction. Cloaked in darkness, his claws obliterate naive heroes, leaving no trace of their pitiful existence.",
             "role": "Nuker",
             "attack": "area",
             "target": "None",
@@ -501,7 +731,7 @@
             "form": "basic",
             "rarity": "Legend Rare",
             "name": "Legeluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about that pandimensional crystal...",
+            "description": "Not sure if this is a Cat... There\'s just something about that pandimensional crystal...",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -513,7 +743,7 @@
             "form": "evolved",
             "rarity": "Legend Rare",
             "name": "Legelan Pasalan",
-            "description": "Gaze upon its might and tremble! There\\'s no doubt that this one is immune to Wave damage (Omni-Strike)",
+            "description": "Gaze upon its might and tremble! There\'s no doubt that this one is immune to Wave damage (Omni-Strike)",
             "role": "Rusher",
             "attack": "area",
             "target": "None",
@@ -545,7 +775,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Unknown Cat",
-            "description": "God, I don\\'t know if this is a Cat anymore. Seriously, I give up. Knockbacks enemies. (Area Atk.)",
+            "description": "God, I don\'t know if this is a Cat anymore. Seriously, I give up. Knockbacks enemies. (Area Atk.)",
             "role": "Super-Backliner & Crowd-Controller",
             "attack": "area",
             "target": "All Except Metal",
@@ -574,7 +804,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Asiluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about those legs...",
+            "description": "Not sure if this is a Cat... There\'s just something about those legs...",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -614,7 +844,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Kubiluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about that neck...",
+            "description": "Not sure if this is a Cat... There\'s just something about that neck...",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -626,7 +856,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Kubilan Pasalan",
-            "description": "You can\\'t be serious. Really?! Seems like this one knocks back enemies from afar.",
+            "description": "You can\'t be serious. Really?! Seems like this one knocks back enemies from afar.",
             "role": "Backliner & Crowd-Controller",
             "attack": "single",
             "target": "All Except Metal",
@@ -657,7 +887,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Tecoluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about those arms...",
+            "description": "Not sure if this is a Cat... There\'s just something about those arms...",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -683,7 +913,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Lufalan Pasalan",
-            "description": "It seems like this one is a straw-hatted pirate of some kind. But we really can\\'t be sure. Massive damage vs. one enemy. (Might Crit.)",
+            "description": "It seems like this one is a straw-hatted pirate of some kind. But we really can\'t be sure. Massive damage vs. one enemy. (Might Crit.)",
             "role": "Nuker & Super-Backliner",
             "attack": "single",
             "target": "None",
@@ -697,7 +927,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Balaluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about that belly...",
+            "description": "Not sure if this is a Cat... There\'s just something about that belly...",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -709,7 +939,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Balalan Pasalan",
-            "description": "No. Way. This can\\'t be right... Seems like this one freezes all enemies in range.",
+            "description": "No. Way. This can\'t be right... Seems like this one freezes all enemies in range.",
             "role": "Crowd-Controller & Super-Backliner",
             "attack": "area",
             "target": "All",
@@ -738,7 +968,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Togeluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about those... spikes???",
+            "description": "Not sure if this is a Cat... There\'s just something about those... spikes???",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -750,7 +980,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Togelan Pasalan",
-            "description": "No. Way. This can\\'t be right... Survives one lethal strike, get stronger the more damage he takes. (Area Attack)",
+            "description": "No. Way. This can\'t be right... Survives one lethal strike, get stronger the more damage he takes. (Area Attack)",
             "role": "Backliner & Nuker",
             "attack": "area",
             "target": "None",
@@ -782,7 +1012,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Nobiluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about that cool \\'stache...",
+            "description": "Not sure if this is a Cat... There\'s just something about that cool \'stache...",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -794,7 +1024,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Nobilan Pasalan",
-            "description": "I can\\'t stand it anymore... Seems like this one is immune to Wave attacks. (Long Range Area Attack)",
+            "description": "I can\'t stand it anymore... Seems like this one is immune to Wave attacks. (Long Range Area Attack)",
             "role": "Sniper",
             "attack": "area",
             "target": "None",
@@ -838,7 +1068,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Papaluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about that toothless smile...",
+            "description": "Not sure if this is a Cat... There\'s just something about that toothless smile...",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -885,7 +1115,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Furiluga",
-            "description": "Not sure if this is a Cat... There\\'s just something about those burning locks of hair...",
+            "description": "Not sure if this is a Cat... There\'s just something about those burning locks of hair...",
             "role": "None",
             "attack": "single",
             "target": "None",
@@ -962,7 +1192,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Wargod Yukimura",
-            "description": "Activated the armor\\'s hidden function \"Jet Boosters\". No stopping it now! Deals massive damage to Black enemies.",
+            "description": "Activated the armor\'s hidden function \"Jet Boosters\". No stopping it now! Deals massive damage to Black enemies.",
             "role": "Rusher & Nuker",
             "attack": "area",
             "target": "Black",
@@ -1027,7 +1257,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Immortal Keiji",
-            "description": "As the cherries blossom, so does Keiji\\'s battle fury. Resistant to Black, immune to Wave attacks. Area attacks grow stronger as he takes damage.",
+            "description": "As the cherries blossom, so does Keiji\'s battle fury. Resistant to Black, immune to Wave attacks. Area attacks grow stronger as he takes damage.",
             "role": "Midranger & Tanker",
             "attack": "area",
             "target": "Black",
@@ -1058,7 +1288,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Wargod Nobunaga",
-            "description": "The Cat\\'s spirit goes into overdrive. The grudge grows even stronger. (Area Attack) Stops the movement of Black enemies.",
+            "description": "The Cat\'s spirit goes into overdrive. The grudge grows even stronger. (Area Attack) Stops the movement of Black enemies.",
             "role": "Crowd-Controller",
             "attack": "area",
             "target": "Black",
@@ -1100,7 +1330,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Wargod Masamune",
-            "description": "Cat Shield\\'s Hell Mode - activate! Infernal (Area) attacks slice through his foes! Might knock back Black and Red enemies.",
+            "description": "Cat Shield\'s Hell Mode - activate! Infernal (Area) attacks slice through his foes! Might knock back Black and Red enemies.",
             "role": "Crowd-Controller & Midranger",
             "attack": "area",
             "target": "Red, Black",
@@ -1142,7 +1372,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Wargod Shingen",
-            "description": "Cat Sword\\'s Tactics Mode - activate! Even greater destructive power! Area attacks only damage Black/Aliens.",
+            "description": "Cat Sword\'s Tactics Mode - activate! Even greater destructive power! Area attacks only damage Black/Aliens.",
             "role": "Nuker",
             "attack": "area",
             "target": "Black, Alien",
@@ -1156,7 +1386,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Immortal Shingen",
-            "description": "The Cat Sword\\'s path of destruction is unstoppable. There is no mercy to be given. Area attacks only damage Black/Aliens.",
+            "description": "The Cat Sword\'s path of destruction is unstoppable. There is no mercy to be given. Area attacks only damage Black/Aliens.",
             "role": "Nuker",
             "attack": "area",
             "target": "Black, Alien",
@@ -1317,7 +1547,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Shiro Amakusa",
-            "description": "Clockwork creation imbued with a young zealot\\'s soul. Driven to bloody battle for his righteous cause. Massive Area damage vs Aku and Black enemies.",
+            "description": "Clockwork creation imbued with a young zealot\'s soul. Driven to bloody battle for his righteous cause. Massive Area damage vs Aku and Black enemies.",
             "role": "?",
             "attack": "area",
             "target": "Aku, Black",
@@ -1422,7 +1652,7 @@
             "form": "evolved",
             "rarity": "Legend Rare",
             "name": "Headmistress Jeanne ψ",
-            "description": "Her educational philosophy has become more... unforgiving lately. But who\\'s going to complain? Insane damage to Red/Floating. (Long-Range/Area)",
+            "description": "Her educational philosophy has become more... unforgiving lately. But who\'s going to complain? Insane damage to Red/Floating. (Long-Range/Area)",
             "role": "Nuker & Sniper",
             "attack": "area",
             "target": "Red, Floating",
@@ -1508,7 +1738,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Divine Thundia",
-            "description": "When you have a goddess\\' body, it\\'s tough to find clothes that fit. Long distance Area Attacks deliver massive damage to Red enemies.",
+            "description": "When you have a goddess\' body, it\'s tough to find clothes that fit. Long distance Area Attacks deliver massive damage to Red enemies.",
             "role": "Nuker & Backliner",
             "attack": "area",
             "target": "Red",
@@ -1550,7 +1780,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Divine Kuu",
-            "description": "Treat her like a weakling and you\\'ll know true pain. Your apologies will only make the staff smash down harder. Strong against Red/Black (Area Attack).",
+            "description": "Treat her like a weakling and you\'ll know true pain. Your apologies will only make the staff smash down harder. Strong against Red/Black (Area Attack).",
             "role": "?",
             "attack": "area",
             "target": "Red, Black",
@@ -1629,7 +1859,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Coppermine, type κ",
-            "description": "Doesn\\'t smile that often. (Area Attack) In front of cats, however.. different story. Might stop floating enemies.",
+            "description": "Doesn\'t smile that often. (Area Attack) In front of cats, however.. different story. Might stop floating enemies.",
             "role": "Crowd-Controller & Midranger",
             "attack": "area",
             "target": "Floating",
@@ -1643,7 +1873,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Divine Coppermine",
-            "description": "What can you do for her that her favorite cat doesn\\'t already? Come back in 100 years, kid. Might stop Floating(Area Attack)",
+            "description": "What can you do for her that her favorite cat doesn\'t already? Come back in 100 years, kid. Might stop Floating(Area Attack)",
             "role": "Crowd - Controller & Midranger",
             "attack": "area",
             "target": "Floating",
@@ -1659,7 +1889,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Kalisa",
-            "description": "Almost obliterated her school on the first day of class with her sword\\'s dark magic. Massive damage against Angels. (Area Attack)",
+            "description": "Almost obliterated her school on the first day of class with her sword\'s dark magic. Massive damage against Angels. (Area Attack)",
             "role": "Rusher & Nuker",
             "attack": "area",
             "target": "Angel",
@@ -1750,7 +1980,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Myrcia",
-            "description": "Money couldn\\'t buy happiness, but it bought a small arsenal that very much brings a smile to her face. Wave Attacks, might dodge Traitless enemy attacks.",
+            "description": "Money couldn\'t buy happiness, but it bought a small arsenal that very much brings a smile to her face. Wave Attacks, might dodge Traitless enemy attacks.",
             "role": "?",
             "attack": "area",
             "target": "Traitless",
@@ -1767,7 +1997,7 @@
             "form": "evolved",
             "rarity": "Uber Rare",
             "name": "Myrcia, type ξ",
-            "description": "RoboButler is endlessly apologizing for Myr\\'s rich-girl faux pas (and the trail of destruction left in her wake). Wave Attacks, might dodge Traitless enemy attacks.",
+            "description": "RoboButler is endlessly apologizing for Myr\'s rich-girl faux pas (and the trail of destruction left in her wake). Wave Attacks, might dodge Traitless enemy attacks.",
             "role": "?",
             "attack": "area",
             "target": "Traitless",
@@ -1784,7 +2014,7 @@
             "form": "true",
             "rarity": "Uber Rare",
             "name": "Divine Myrcia",
-            "description": "Bourgeois space princess living a high-class life, but can\\'t resist cravings for cheap cheeseburgers. Wave attacks, might dodge Traitless enemy attacks.",
+            "description": "Bourgeois space princess living a high-class life, but can\'t resist cravings for cheap cheeseburgers. Wave attacks, might dodge Traitless enemy attacks.",
             "role": "?",
             "attack": "area",
             "target": "Traitless",
@@ -1972,7 +2202,7 @@
             "form": "basic",
             "rarity": "Uber Rare",
             "name": "Baby Gao",
-            "description": "Might be a crybaby but he\\'s still young! He just doesn\\'t realize the power within himself. Strong against every enemy with a trait. (Area Atk)",
+            "description": "Might be a crybaby but he\'s still young! He just doesn\'t realize the power within himself. Strong against every enemy with a trait. (Area Atk)",
             "role": "Midranger",
             "attack": "area",
             "target": "All Except Traitless",
@@ -2008,7 +2238,17 @@
             "attack": "unknown",
             "target": "Unknown",
             "target_abilities": [],
-            "general_abilities": []
+            "general_abilities": [],
+            "dmg": 0,
+            "hp": 0,
+            "dps": 0,
+            "cost": "?",
+            "range": "?",
+            "speed": "?",
+            "kb": "?",
+            "atkrate": "?",
+            "atkanim": "?",
+            "recharge": "?"
         },
         {
             "id": "unknown",
@@ -2020,7 +2260,17 @@
             "attack": "unknown",
             "target": "Unknown",
             "target_abilities": [],
-            "general_abilities": []
+            "general_abilities": [],
+            "dmg": 0,
+            "hp": 0,
+            "dps": 0,
+            "cost": "?",
+            "range": "?",
+            "speed": "?",
+            "kb": "?",
+            "atkrate": "?",
+            "atkanim": "?",
+            "recharge": "?"
         },
         {
             "id": "unknown",
@@ -2032,7 +2282,17 @@
             "attack": "unknown",
             "target": "Unknown",
             "target_abilities": [],
-            "general_abilities": []
+            "general_abilities": [],
+            "dmg": 0,
+            "hp": 0,
+            "dps": 0,
+            "cost": "?",
+            "range": "?",
+            "speed": "?",
+            "kb": "?",
+            "atkrate": "?",
+            "atkanim": "?",
+            "recharge": "?"
         }
     ]
 }
